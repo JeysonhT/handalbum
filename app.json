@@ -2,7 +2,7 @@
   "expo": {
     "name": "handalbum",
     "slug": "handalbum",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "handalbum",
@@ -17,7 +17,8 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.handalbum"
     },
     "web": {
       "output": "static",
@@ -31,6 +32,28 @@
           "backgroundColor": "#208AEF",
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Literata-Bold.ttf",
+            "./assets/fonts/Literata-Regular.ttf",
+            "./assets/fonts/PlusJakartaSans-Bold.ttf",
+            "./assets/fonts/PlusJakartaSans-Regular.ttf"
+          ]
+        }
+      ],
+      "expo-image",
+      "expo-status-bar",
+      "expo-web-browser",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "cmakeVersion": "3.31.6"
+          }
         }
       ]
     ],
